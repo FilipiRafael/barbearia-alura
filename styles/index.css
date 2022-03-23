@@ -1,15 +1,48 @@
-h1 {
-    text-align: center;
+body {
+    background-color: #FFFFFF;
+}
+
+.banner {
+    width: 100vw;
+}
+
+.principal {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
 }
 
 p {
     text-align: center;
 }
 
-body {
-    background-color: lightgray;
+.mission {
+    font-size: 20px;
 }
 
 em strong {
     color: darkred;
+}
+
+.beneficios {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20vw;
+    margin-right: 15vw;
+}
+
+.beneficios-banner {
+    width: 30vw;
 }
