@@ -11,8 +11,43 @@ body {
     padding: 30px;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: lightgray;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.navegacao {
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: darkcyan;
 }
 
 p {
