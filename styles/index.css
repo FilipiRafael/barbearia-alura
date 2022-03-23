@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+em strong {
+    color: darkred;
+}
